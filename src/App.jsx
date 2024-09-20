@@ -5,7 +5,7 @@ import Hero from './components/hero/Hero'
 import Projects from './components/projects/Projects'
 import Skills from './components/skills/Skills'
 import Contact from './components/contact/contact'
-import Footer from './footer/Footer'
+import Footer from './footer/footer'
 import Headroom from 'react-headroom'
 
 function App() {
