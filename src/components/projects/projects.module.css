@@ -1,0 +1,72 @@
+.projects {
+    width: 100%;
+    background-color: rgb(243, 244, 246);
+    padding: 5rem 1.5rem;    
+}
+
+.projectCard {
+    display: grid;
+    /* background-image: url('../../assets/images/signup-page.png'); */
+    min-height: 13.75rem;
+    /* background-color: #FF6A3A; */
+    background-blend-mode: color;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    padding: 0 1.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    text-align: center;
+    place-items: center;
+    color: #fff;
+}
+
+
+.projectCard:hover {
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    transform: perspective(1000px) translateZ(20px);
+}
+
+.title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 2.25rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.projectsContainer {
+    /* column-count: 3; */
+    columns: 22rem;
+}
+
+.titleCard {
+    margin: 0;
+    font-weight: 900;
+    font-size:2rem;
+}
+
+.cardContentHover {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.cardButton {
+    padding: 0.7rem 1.5rem;
+    border-radius: 1rem;
+    border: 2px solid #000;
+    background-color: #0e76a8;
+    cursor: pointer;
+}
+
+.cardButton:hover {
+    background-color: #000000;
+}
+
+.cardButton a {
+    text-decoration: none;
+}
