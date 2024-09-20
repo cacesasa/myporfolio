@@ -1,10 +1,11 @@
 import styles from './hero.module.css'
+import heropic from '../../assets/images/carlos.jpg'
 
 export default function Hero() {
     return (
         <>
             <section className={styles.hero} id = "about" >
-                <img src="src/assets/images/carlos.jpg" className={styles.image} alt='Carlos Santana' />
+                <img src={heropic} className={styles.image} alt='Carlos Santana' />
                 <div className={styles.content}>
                     <h1 className={styles.title}>Carlos Santana</h1>
                     <h2 className={styles.subtitle}>Frontend Developer</h2>
